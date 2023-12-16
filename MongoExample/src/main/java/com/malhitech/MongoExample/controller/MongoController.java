@@ -19,6 +19,8 @@ import com.malhitech.MongoExample.service.MongoService;
 public class MongoController {
 	@Autowired
 	MongoService myService;
+	
+	
 	@PostMapping("/employee")
 	public Employee saveEmployee(@RequestBody Employee  employee)
 	{
