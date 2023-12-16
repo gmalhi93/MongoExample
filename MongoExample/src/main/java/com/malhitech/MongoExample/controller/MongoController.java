@@ -15,7 +15,7 @@ import com.malhitech.MongoExample.entity.Employee;
 import com.malhitech.MongoExample.service.MongoService;
 
 @RestController
-@RequestMapping("/MongoExample")
+@RequestMapping("/MongoExample1")
 public class MongoController {
 	@Autowired
 	MongoService myService;
